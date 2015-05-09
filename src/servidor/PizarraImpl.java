@@ -84,11 +84,11 @@ public class PizarraImpl extends UnicastRemoteObject
         if( lista.remove(c)){
             System.out.println("ID Cliente desconectado");
         if(lista.isEmpty()){
-                        mat = new int[500][500];
+            mat = new int[500][500];
         }
         System.out.println("Clientes conectados: "+lista.size());
         }else
-             System.out.println("Cliente quiso desconectarse pero no pudo");
+            System.out.println("Cliente quiso desconectarse pero no pudo");
             
         
     }
